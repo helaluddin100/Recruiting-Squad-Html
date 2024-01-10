@@ -1,0 +1,339 @@
+﻿.btn-sign-in-out:hover {
+  color: #ffffff !important;
+}
+
+.offcanvas-body .nav-item a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.card.accordion-item.icon {
+  background-color: transparent;
+}
+
+.accordion.accordion-wrapper.recruiting-department-section {
+  border-left: 0;
+}
+
+#collapseIconOne::before,
+#collapseIconTwo::before,
+#collapseIconThree::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 5px;
+  background: #e31a4b;
+  height: 0%;
+  top: 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+#collapseIconOne.accordion-collapse.collapse::before,
+#collapseIconTwo.accordion-collapse.collapse::before,
+#collapseIconThree.accordion-collapse.collapse::before {
+  content: none;
+  position: absolute;
+  left: 0;
+  width: 5px;
+  background: #e31a4b;
+  height: 100%;
+  top: 0;
+}
+
+@media screen and (min-width: 992px) {
+  #collapseIconOne.accordion-collapse.collapse::before,
+  #collapseIconTwo.accordion-collapse.collapse::before,
+  #collapseIconThree.accordion-collapse.collapse::before {
+    content: "";
+  }
+  .accordion.accordion-wrapper.recruiting-department-section {
+    border-left: 1px solid #d1d1d1;
+  }
+}
+
+.main-menu a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #326eb6 !important;
+  text-decoration-thickness: 3px !important;
+  text-underline-offset: 3px !important;
+}
+
+.accordion-wrapper .card-header button:before {
+  font-family: "Unicons";
+  position: absolute;
+  left: initial !important;
+  content: "\e932";
+  font-size: 1.5rem;
+  font-weight: normal;
+  width: 1rem;
+  margin-top: -0.1rem;
+  margin-left: -0.3rem;
+  display: inline-block;
+  color: #ffffff !important;
+  right: 30px !important;
+  background: #255ba4;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.accordion-style-1 .accordion-item .card-header button:before {
+  display: none;
+}
+
+.accordion-style-1 .card-body p {
+  text-align: left;
+}
+
+.tab-content {
+  text-align: left;
+  position: relative;
+}
+
+/* .tab-content > .tab-pane {
+  display: block !important;
+} */
+
+/* .fade:not(.show) {
+  opacity: 0.5 !important;
+} */
+
+/* .tab-pane {
+  position: absolute;
+} */
+
+.tab-pane.active {
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+
+.pane-color-1 {
+  top: -0px;
+}
+
+.pane-color-2 {
+  top: 20px;
+}
+
+.pane-color-3 {
+  top: 6px;
+}
+
+.pane-color-4 {
+  top: -6px;
+}
+
+.customer_slider {
+  position: relative;
+}
+
+.slider-navigation {
+  width: 63%;
+  position: relative;
+  bottom: 50%;
+  margin: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 24px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  color: #000;
+}
+
+@media (min-width: 240px) {
+  .red-line-home {
+    position: absolute;
+    right: -10px !important;
+    bottom: -35px !important;
+  }
+  .accordion-wrapper .card-header button:before {
+    margin-top: 1.3rem;
+    margin-right: -1rem;
+  }
+  .accordion-style-1 .accordion-item .card-header button {
+    font-size: 20px;
+  }
+  .accordion-wrapper .card-header {
+    padding: 0.9rem 1.3rem 3.05rem 0.3rem;
+  }
+  .accordion-item .card-body {
+    padding: 0 1.25rem 0.25rem 1.35rem;
+  }
+  .accordion-item .card-header button {
+    font-size: 18px;
+  }
+  .accordion-style-1 .card-body p {
+    padding: 0px !important;
+  }
+  .rsquad .counter-color-1,
+  .rsquad .counter-color-2,
+  .rsquad .counter-color-3,
+  .rsquad .counter-color-4 {
+    text-align: left;
+    font-size: 72px;
+  }
+  .footer_v2 .links {
+    padding-left: 30px;
+  }
+  .rsquad .text-size-20 {
+    text-align: left;
+  }
+  .rsquad .text-size-18,
+  .rsquad p,
+  .rsquad ul li {
+    text-align: left;
+  }
+  .row > * {
+    padding-top: 50px;
+  }
+  .we-handle-everything h1 {
+    font-size: 32px !important;
+    padding-bottom: 1.5rem;
+  }
+  .we-handle-everything p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .rsquad h1 {
+    font-size: 48px;
+  }
+  .highlight-text-how-it-works img {
+    position: absolute;
+    right: -45px !important;
+    bottom: 30px !important;
+  }
+  .rsquad h3 {
+    font-size: 42px;
+  }
+  .rsquad .text-size-32 {
+    font-size: 28px;
+  }
+  .footer_v2 .header {
+    font-size: 16px;
+    margin-top: 0.5rem;
+  }
+  .rsquad .text-size-18,
+  .rsquad p,
+  .rsquad ul li {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .accordion-style-1 .accordion-item .card-header button {
+    font-size: 24px;
+  }
+  .rsquad h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .accordion-wrapper .card-header button:before {
+    margin-top: 1.6rem;
+    margin-right: -1rem;
+  }
+  .accordion-style-1 .accordion-item .card-header button {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 992px) {
+  .red-line-home {
+    position: absolute;
+    right: -10px !important;
+    bottom: -35px !important;
+  }
+  .accordion-wrapper .card-header button:before {
+    margin-top: -0.1rem;
+    margin-left: -0.3rem;
+  }
+  .row > * {
+    padding-top: 0px;
+  }
+  .rsquad h1 {
+    font-size: 64px;
+  }
+  .we-handle-everything h1 {
+    font-size: 64px !important;
+    padding-bottom: 0rem;
+  }
+  .we-handle-everything p {
+    text-align: left;
+    font-size: 18px;
+  }
+  .highlight-text-how-it-works img {
+    position: absolute;
+    right: 0px !important;
+    bottom: 29px !important;
+  }
+  .rsquad h3 {
+    font-size: 48px;
+  }
+  .rsquad .counter-color-1,
+  .rsquad .counter-color-2,
+  .rsquad .counter-color-3,
+  .rsquad .counter-color-4 {
+    font-size: 84px;
+  }
+  .rsquad .text-size-32 {
+    font-size: 32px;
+  }
+  .footer_v2 .header {
+    font-size: 18px;
+  }
+  .rsquad .text-size-18,
+  .rsquad p,
+  .rsquad ul li {
+    font-size: 18px;
+  }
+  .footer_v2 .links {
+    padding-left: 115px;
+  }
+  .accordion-item .card-header button {
+    font-size: 24px;
+  }
+  .accordion-wrapper .card-header {
+    padding: 0.9rem 1.3rem 0.85rem;
+  }
+  .accordion-item .card-body {
+    padding: 0 1.25rem 0.25rem 2.35rem;
+  }
+  .accordion-style-1 .card-body p {
+    padding: 25px !important;
+  }
+}

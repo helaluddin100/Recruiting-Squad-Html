@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html en>
+  <head>
+    <title>Contact Us</title>
+    <meta name="description" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/fonts/AktivGrotesk/stylesheet.css" />
+    <link rel="stylesheet" href="vendor/css/plugins.css" />
+    <link rel="stylesheet" href="vendor/css/style.css" />
+    <link rel="stylesheet" href="vendor/css/colors/red.css" />
+    <link
+      rel="stylesheet"
+      href="scripts/font-awesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="">
+    <div class="content-wrapper">
+      <header class="wrapper">
+        <nav
+          class="navbar navbar-expand-lg classic transparent navbar-light header-v2 pt-2 pb-2"
+        >
+          <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand pe-10">
+              <a href="/">
+                <img src="images/v2/logo.png" alt="" />
+              </a>
+            </div>
+            <div
+              class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+            >
+              <div class="offcanvas-header d-lg-none">
+                <h3 class="text-white fs-30 mb-0">RecruitingSquad</h3>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body d-flex flex-column h-100">
+                <ul class="navbar-nav">
+                  <li>
+                    <a class="nav-link" href="how-it-works.html"
+                      >How It Works</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="industries.html">Industries</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="our-recruiters.html"
+                      >Our Recruiters</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="affiliates.html">Affiliates</a>
+                  </li>
+                </ul>
+                <div class="offcanvas-footer d-lg-none">
+                  <div>
+                    <a href="mailto:first.last@email.com" class="link-inverse"
+                      >info@email.com</a
+                    >
+                    <br />
+                    00 (123) 456 78 90 <br />
+                    <nav class="nav social social-white mt-4">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                      <a href="#"><i class="uil uil-instagram"></i></a>
+                      <a href="#"><i class="uil uil-youtube"></i></a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar-other w-100 d-flex ms-auto">
+              <div class="navbar-other w-100 d-flex ms-auto">
+                <ul class="navbar-nav flex-row align-items-center ms-auto">
+                  <li class="nav-item d-none d-md-block">
+                    <a
+                      href="/app"
+                      class="btn btn-sm btn-primary rounded-pill btn_text white_text"
+                      >My Account</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/signout"
+                      class="btn btn-sm btn-outline-primary rounded-pill btn_text black_text"
+                      >Sign Out</a
+                    >
+                  </li>
+
+                  <li class="nav-item d-lg-none">
+                    <button class="hamburger offcanvas-nav-btn">
+                      <span></span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="rsquad">
+        <section class="wrapper bg-light contactus-bk-001 mt-0 mb-0">
+          <div class="container">
+            <div class="banner-blur_01 text-center">
+              <h1 class="pt-80">
+                We're always here to help
+                <span style="position: relative">
+                  <span style="position: absolute; right: 10px; bottom: -35px">
+                    <img
+                      src="images/v2/join-the-squad-text-line.png"
+                      class="img_fluid"
+                    />
+                  </span>
+                </span>
+              </h1>
+
+              <p class="text-size-20 text-regular pt-20 mb-0">
+                Whether you’d like a demo, have a support question, or a pricing
+                related query, just get in touch.
+              </p>
+
+              <div class="pt-80 pb-80 sub-form-container text-left">
+                <div class="our-recruiter-section p-40">
+                  <form
+                    class="contact-form needs-validation"
+                    method="post"
+                    action="./assets/php/contact.php"
+                    novalidate
+                  >
+                    <div class="messages"></div>
+                    <div class="row gx-4">
+                         <div class="col-md-12">
+                            <div class="label">Full Name*</div>
+                            <div class="form-floating mb-4">
+                              <input
+                                id="form_name"
+                                type="text"
+                                name="name"
+                                class="form-control round-border"
+                                placeholder="John Smith"
+                                required
+                              />
+                              <label for="form_name">Full Name *</label>
+                              <div class="valid-feedback">Looks good!</div>
+                              <div class="invalid-feedback">
+                                Please enter your name.
+                              </div>
+                            </div>
+                         </div>
+                    </div>
+
+                    <div class="row gx-4">
+                       
+                        <div class="col-md-6">
+                            <div class="label">Email*</div>
+                            <div class="form-floating mb-4">
+                              <input
+                                id="form_email"
+                                type="email"
+                                name="email"
+                                class="form-control round-border"
+                                placeholder="you@yourcompany.com"
+                                required
+                              />
+                              <label for="form_email">Email *</label>
+                              <div class="valid-feedback">Looks good!</div>
+                              <div class="invalid-feedback">
+                                Please provide a valid email address.
+                              </div>
+                            </div>
+                          </div>
+
+
+                      <div class="col-md-6">
+                        <div class="label">Phone number*</div>
+                        <div class="form-floating mb-4">
+                          <input
+                            id="form_phone"
+                            type="text"
+                            name="surname"
+                            class="form-control round-border"
+                            placeholder="(555)555-1234"
+                            required
+                          />
+                          <label for="form_lastname">Phone number*</label>
+                          <div class="valid-feedback">Looks good!</div>
+                          <div class="invalid-feedback">
+                            Please enter phone number.
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                  
+                   <div class="row gx-4">
+                    <div class="col-md-12">
+                       <div class="label">Subject*</div>
+                       <div class="form-floating mb-4">
+                         <input
+                           id="form_name"
+                           type="text"
+                           name="name"
+                           class="form-control round-border"
+                           placeholder="Add your subject here..."
+                           required
+                         />
+                         <label for="form_name">Subject *</label>
+                         <div class="valid-feedback">Looks good!</div>
+                         <div class="invalid-feedback">
+                           Please enter subject.
+                         </div>
+                       </div>
+                    </div>
+               </div>
+                   
+                    <div class="row gx-4">
+
+
+                   
+                      <div class="col-12">
+                        <div class="label">How can we help you?*</div>
+                        <div class="form-floating mb-4">
+                          <textarea
+                            id="form_message"
+                            name="message"
+                            class="form-control"
+                            placeholder="Your message"
+                            style="height: 150px"
+                            required
+                          ></textarea>
+                          <label for="form_message">Message *</label>
+                          <div class="valid-feedback">Looks good!</div>
+                          <div class="invalid-feedback">
+                            Please enter your messsage.
+                          </div>
+                        </div>
+                      </div>
+                   
+                     
+                  
+                    </div>
+
+                    <div class="row gx-4">
+                         <div class="col-md-6 col-xs-12">
+
+                         </div>
+                         <div class="col-md-6 col-xs-12">
+                            <div class="d-flex justify-content-end pt-24">
+                                <input
+                                type="submit"
+                                class="btn btn-primary rounded-pill btn-send mb-3"
+                                value="Submit"
+                              />
+                            </div>
+                           
+                         </div>
+
+                    </div>
+                  
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer_v2">
+        <div class="pt-80 pb-80 links">
+          <div class="hr-lines">
+            <img
+              class="img-fluid header-img-holder"
+              src="images/banners/logo_bottom.png"
+              title=""
+            />
+          </div>
+        </div>
+        <div class="pb-40 links">
+          <div class="d-flex flex-column flex-lg-row justify-content-between">
+            <div class="d-flex flex-column gap-2">
+              <p class="header">Platform</p>
+              <a href="how-it-works.html">How it Works</a>
+              <a href="pricing.html">Pricing</a>
+              <a href="industries.html">Industries</a>
+
+              <a href="our-recruiters.html">Our Recruiters</a>
+              <a href="affiliates.html">Affiliate Program</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="header">Company</p>
+              <a href="about-us.html">About Us</a>
+              <a href="join-the-squad.html">Join the Squad</a>
+              <a href="privacy.html">Privacy Statement</a>
+              <a href="terms.html">Terms &amp; Conditions</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="header">Services</p>
+              <a href="#">On-Demand Recruiting</a>
+              <a href="#">Resume Screening</a>
+              <a href="#">Candidate Sourcing</a>
+              <a href="#">Reference Check</a>
+              <a href="#">Background Check</a>
+              <a href="#">Drug Testing</a>
+              <a href="#">Payroll Services</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="header">Resources</p>
+              <a href="contact.html">Contact Us</a>
+              <a href="faqs.html">FAQs</a>
+              <a href="#">Estimate Calculator</a>
+              <div class="d-flex justify-content-between">
+                <a class="circle" href="#">
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.752 14.3626H11.7533V11.2299C11.7533 10.4829 11.7382 9.5214 10.7108 9.5214C9.669 9.5214 9.51 10.3344 9.51 11.1751V14.3626H7.5105V7.9209H9.4305V8.7984H9.45675C9.72525 8.2929 10.3778 7.75815 11.3527 7.75815C13.3778 7.75815 13.7528 9.09165 13.7528 10.8264L13.752 14.3626ZM5.253 7.03965C5.10042 7.03985 4.94929 7.00993 4.8083 6.9516C4.6673 6.89328 4.5392 6.8077 4.43134 6.69978C4.32348 6.59185 4.23799 6.46369 4.17976 6.32266C4.12153 6.18162 4.0917 6.03048 4.092 5.8779C4.09215 5.64827 4.16038 5.42385 4.28808 5.23301C4.41578 5.04217 4.5972 4.89347 4.8094 4.80574C5.0216 4.718 5.25505 4.69516 5.48024 4.7401C5.70542 4.78505 5.91222 4.89575 6.07448 5.05823C6.23674 5.2207 6.34719 5.42764 6.39184 5.65288C6.43649 5.87813 6.41335 6.11155 6.32534 6.32364C6.23733 6.53573 6.0884 6.71695 5.89739 6.8444C5.70639 6.97185 5.48187 7.0398 5.25225 7.03965H5.253ZM6.255 14.3626H4.25025V7.9209H6.255V14.3626ZM14.7525 2.8584H3.2475C2.6955 2.8584 2.25 3.2934 2.25 3.83115V15.3856C2.25 15.9234 2.6955 16.3584 3.246 16.3584H14.7502C15.3 16.3584 15.75 15.9234 15.75 15.3856V3.83115C15.75 3.29415 15.3 2.8584 14.7495 2.8584H14.7525Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <a class="circle" href="#">
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5515 16.3584V11.1339H13.3013L13.563 9.1029H11.5515V7.8069C11.5515 7.2189 11.715 6.81765 12.558 6.81765H13.6335V5.00115C13.1128 4.94591 12.5896 4.91912 12.066 4.9209C10.5157 4.9209 9.4545 5.8674 9.4545 7.6059V9.1029H7.701V11.1339H9.4545V16.3584H3C2.80109 16.3584 2.61032 16.2794 2.46967 16.1387C2.32902 15.9981 2.25 15.8073 2.25 15.6084V3.6084C2.25 3.40949 2.32902 3.21872 2.46967 3.07807C2.61032 2.93742 2.80109 2.8584 3 2.8584H15C15.1989 2.8584 15.3897 2.93742 15.5303 3.07807C15.671 3.21872 15.75 3.40949 15.75 3.6084V15.6084C15.75 15.8073 15.671 15.9981 15.5303 16.1387C15.3897 16.2794 15.1989 16.3584 15 16.3584H11.5515Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <a class="circle" href="#">
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15 14.1084H13.5V7.5459L9 10.3584L4.5 7.5459V14.1084H3V5.1084H3.9L9 8.2959L14.1 5.1084H15M15 3.6084H3C2.1675 3.6084 1.5 4.2759 1.5 5.1084V14.1084C1.5 14.5062 1.65804 14.8878 1.93934 15.1691C2.22064 15.4504 2.60218 15.6084 3 15.6084H15C15.3978 15.6084 15.7794 15.4504 16.0607 15.1691C16.342 14.8878 16.5 14.5062 16.5 14.1084V5.1084C16.5 4.71057 16.342 4.32904 16.0607 4.04774C15.7794 3.76643 15.3978 3.6084 15 3.6084Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="header">Still have questions?</p>
+
+              <a class="btn btn-primary">Request A Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mb-0 mt-0" />
+
+        <div class="text-center pt-40">
+          <p class="med-text">
+            &copy; 2024 The Recruiting Squad. All rights reserved
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img
+            src="images/v2/footer_bt_img_001.png"
+            class="img-fluid"
+            alt=""
+            title=""
+          />
+        </div>
+      </footer>
+
+      <div class="progress-wrap">
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
+
+      <script src="scripts/jquery/jquery.min.js"></script>
+      <script src="vendor/js/plugins.js"></script>
+      <script src="vendor/js/theme.js"></script>
+      <script src="js/site.js"></script>
+      <script src="js/forms.js"></script>
+    </div>
+  </body>
+</html>
